@@ -1,0 +1,27 @@
+# Number of scores
+Z: 46
+
+# List of chromosomes
+# CHROMS: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, X]
+CHROMS: [21, 22]
+
+# Location of input dbNSFP .gz datafiles
+IN_LOC: "/u/home/l/luke0321/project-ernst/scoreHMM/dbnsfp"
+
+# Location of output files
+OUT_LOC: "/u/home/l/luke0321/project-ernst/scoreHMM/dbnsfp/snake_test/test_run_21_22"
+
+# Location of scripts
+SCRIPT_LOC: "./scripts"
+
+# dbNSFP version
+VERSION: "5.0a"
+
+# Whether in cluster environment
+ENV: "cluster"
+
+# Number of states
+NUM_STATES: 20
+
+# Path to chromhmm .jar file
+CHROMHMM_LOC: "/u/home/l/luke0321/project-ernst/scoreHMM/ChromHMM"

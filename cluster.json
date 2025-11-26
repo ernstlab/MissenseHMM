@@ -1,0 +1,41 @@
+{
+    "__default__": {
+        "memory": "2G",
+        "name": "{rule}",
+        "highp": false,
+        "output": "/u/home/l/luke0321/project-ernst/scoreHMM/dbnsfp/snake_test/logs/{rule}.out",
+        "time": "0:30:00",
+        "threads": 1
+    },
+    "create_datafile": {
+        "memory": "15G",
+        "name": "{rule}.{wildcards.chrm}",
+        "output": "/u/home/l/luke0321/project-ernst/scoreHMM/dbnsfp/snake_test/logs/{rule}.{wildcards.chrm}.out",
+        "time": "3:00:00",
+    },
+    "threshold": {
+        "memory": "5G",
+        "name": "{rule}.{wildcards.z}",
+        "output": "/u/home/l/luke0321/project-ernst/scoreHMM/dbnsfp/snake_test/logs/{rule}.{wildcards.z}.out",
+        "time": "5:00:00",
+    },
+    "generate_binary": {
+        "highp": true,
+        "memory": "35G",
+        "name": "{rule}.{wildcards.chrm}",
+        "output": "/u/home/l/luke0321/project-ernst/scoreHMM/dbnsfp/snake_test/logs/{rule}.{wildcards.chrm}.out",
+        "time": "20:00:00"
+    },
+    "train_hmm": {
+        "highp": true,
+        "memory": "40G",
+        "time": "40:00:00",
+        "threads": 4
+    },
+    "apply_model": {
+        "highp": true,
+        "memory": "40G",
+        "time": "20:00:00",
+        "threads": 1
+    }
+}

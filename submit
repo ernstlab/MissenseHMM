@@ -1,0 +1,8 @@
+#!/bin/sh
+
+snakemake \
+-j 50 \
+--cluster-config cluster.json \
+--cluster "qsub -V -cwd -l h_rt={cluster.time},h_data={cluster.memory} -pe shared {cluster.threads} -N {cluster.name} -j y -o {cluster.output}" \
+--latency-wait 60 \
+--local-cores 1
