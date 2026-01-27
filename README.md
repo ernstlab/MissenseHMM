@@ -1,5 +1,6 @@
 # MissenseHMM
-MissenseHMM: state-based annotations for missense variants through joint modeling of pathogenicity scores
+MissenseHMM: state-based annotations for missense variants through joint modeling of pathogenicity scores.
+The pre-generated annotations can be found in the `annotations_v1.0` folder. 
 
 ### Requirements
 First, download dbNSFP data from https://www.dbnsfp.org/. Modify the `IN_LOC` and `VERSON` variables in `config.yaml` accordingly.
