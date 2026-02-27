@@ -1,5 +1,8 @@
 # MissenseHMM
-MissenseHMM: state-based annotations for missense variants through joint modeling of pathogenicity scores.
+MissenseHMM: state-based annotations for missense variants through joint modeling of pathogenicity scores. 
+
+Pre-print: https://doi.org/10.64898/2026.01.31.703062. 
+
 The pre-generated annotations can be found in the `annotations_v1.0` folder and also at https://public.hoffman2.idre.ucla.edu/ernst/8WTU7/. 
 
 ### Requirements
