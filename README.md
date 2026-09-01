@@ -3,7 +3,7 @@ MissenseHMM: state-based annotations for missense variants through joint modelin
 
 Pre-print: https://doi.org/10.64898/2026.01.31.703062. 
 
-The pre-generated annotations can be found at https://doi.org/10.5281/zenodo.21937840 and also at https://public.hoffman2.idre.ucla.edu/ernst/8WTU7/. 
+The pre-generated annotations can be found at https://doi.org/10.5281/zenodo.21937840. 
 
 ### Requirements
 First, download dbNSFP data from https://www.dbnsfp.org/. Modify the `IN_LOC` and `VERSON` variables in `config.yaml` accordingly.
